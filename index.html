@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="sl" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nara hladilna tehnika · Hladilna in gostinska oprema</title>
+<meta name="description" content="Profesionalna hladilna in gostinska oprema, projektiranje kuhinj in barov, servis in rezervni deli. Nara hladilna tehnika, Škofja Loka.">
+<link rel="icon" href="assets/brand/cropped-nara-icon-old-270x270.png">
+<link rel="preload" href="assets/fonts/Satoshi-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="domov">
+
+<div class="loader" aria-hidden="true"><div class="lf"></div><img src="assets/brand/nara-logo.png" alt=""></div>
+
+<main>
+  <section class="hero">
+    <canvas id="frost"></canvas>
+    <div class="hero-flake-wrap"></div>
+    <div class="wrap hero-grid">
+      <div>
+        <h1 class="h-display" id="heroTitle">Hladilna oprema za profesionalce.</h1>
+        <p class="lead">Profesionalna hladilna in gostinska oprema za restavracije, lokale, trgovine, slaščičarne in medicino. Od načrta do servisa.</p>
+        <div class="hero-actions">
+          <a class="btn blue-b" href="produkti.html">Prodajni program <svg class="arr" viewBox="0 0 20 20" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <a class="btn ghost" href="projektiranje.html">Projektiranje in dizajn</a>
+        </div>
+      </div>
+      <div class="stage" id="stage">
+        <div class="stage-disc"></div>
+        <div class="stage-cap"><div><span class="muted" id="stageCat"></span><b id="stageName"></b></div><div class="stage-dots" id="stageDots"></div></div>
+      </div>
+    </div>
+    <div class="wrap"><div class="hero-foot">
+      <div><b><span data-count="20">20</span>+ let</b>izkušenj s hlajenjem</div>
+      <div><b><span data-count="429">429</span> izdelkov</b>v prodajnem programu</div>
+      <div><b>Servis</b>za lasten prodajni program</div>
+      <div><b><span data-count="36">36</span> obrokov</b>za financiran nakup</div>
+    </div></div>
+  </section>
+
+  <section class="statement wrap">
+    <p id="statement">Našim partnerjem zagotavljamo širok izbor kvalitetne hladilne opreme za profesionalce, servisiranje in vzdrževanje ter kompetentno svetovanje strokovnjakov z dolgoletnimi izkušnjami.</p>
+  </section>
+
+  <section class="rail-sec" id="rail-sec">
+    <div class="wrap rail-head">
+      <h2 class="h2">Prodajni program</h2>
+      <a class="btn ghost" href="produkti.html">Vsi izdelki <svg class="arr" viewBox="0 0 20 20" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+    <div class="wrap"><div class="rail" id="rail"></div><div class="rail-progress"><i id="railBar"></i></div></div>
+  </section>
+
+  <section class="sectors wrap">
+    <h2 class="h2 rv">Oprema za vsak prostor,<br><span class="gray">kjer šteje temperatura.</span></h2>
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <div class="sector-panel" id="sector"></div>
+  </section>
+
+  <section class="services">
+    <div class="wrap">
+      <h2 class="h2 rv">En partner od prve skice do zadnjega vijaka.</h2>
+      <div class="svc-list" id="svcList">
+        <a class="svc" href="projektiranje.html" data-img="assets/brand/projektiranje-dizajn-nova.png"><div class="t">Svetovanje in projektiranje</div><p>Oprema lokalov in izbor ustreznih hladilnih sistemov. Ogled, izmera, načrt in ponudba.</p><span class="go"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+        <a class="svc" href="produkti.html" data-img="assets/img/nevo-120-0.jpg"><div class="t">Hladilna oprema</div><p>Za restavracije, gostinske lokale, kuhinje, trgovine ter shranjevanje in predelavo živil.</p><span class="go"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+        <a class="svc" href="kontakt.html" data-img="assets/img/komora-test-2-0.jpg"><div class="t">Proizvodnja in rezervni deli</div><p>Sklopi hladilnih sistemov za raznovrstne aplikacije, deli za LTH izdelke, montaža hladilnih in zamrzovalnih komor.</p><span class="go"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+        <a class="svc" href="servis.html" data-img="assets/img/hz-15-0.jpg"><div class="t">Servis</div><p>Za lasten prodajni program ter montaža hladilnic in hladilne opreme. Rezervni deli stalno na zalogi.</p><span class="go"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+        <a class="svc" href="najem.html" data-img="assets/img/brina-50-0.jpg"><div class="t">Najem in financiran nakup</div><p>Najem hladilne opreme za snemanje, oglaševanje, prireditve, zabave in piknike. Nakup na 36 obrokov.</p><span class="go"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+      </div>
+    </div>
+    <div class="bigflake-wrap"></div>
+  </section>
+  <div class="svc-float" id="svcFloat"></div>
+
+  <section class="plan wrap" id="plan">
+    <div class="plan-img"><img src="assets/brand/projektiranje-dizajn-nova.png" alt="Načrt postavitve gostinske kuhinje" id="planImg"><span class="scan" id="planScan"></span></div>
+    <div>
+      <h2 class="h2">Kuhinjo najprej narišemo.<br><span class="gray">Potem jo opremimo.</span></h2>
+      <p class="lead" style="margin-top:28px;color:#3b4652">Celovita storitev pri opremi gostinskih objektov. Od izmer in načrtovanja opreme do postavitve risb v 2D tehnologiji.</p>
+      <div class="steps" id="steps">
+        <div class="step"><span class="dot">1</span><div class="t">Ogled in izmera na lokaciji</div></div>
+        <div class="step"><span class="dot">2</span><div class="t">Svetovanje glede optimalne postavitve opreme</div></div>
+        <div class="step"><span class="dot">3</span><div class="t">Priprava načrta</div></div>
+        <div class="step"><span class="dot">4</span><div class="t">Usklajevanje načrta po vaših željah</div></div>
+        <div class="step"><span class="dot">5</span><div class="t">Priprava ponudbe</div></div>
+        <div class="step"><span class="dot">6</span><div class="t">Dobava in montaža opreme</div></div>
+      </div>
+      <div class="haccp">Vsak projekt usklajujemo tako, da doseže najvišjo možno funkcionalnost in standarde H.A.C.C.P.</div>
+      <div class="hero-actions"><a class="btn" href="projektiranje.html">Več o projektiranju <svg class="arr" viewBox="0 0 20 20" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+    </div>
+  </section>
+
+  <section class="stats wrap">
+    <div class="stat rv"><b><span data-count="20">20</span><small>+</small></b><p>let izkušenj na področju hlajenja</p></div>
+    <div class="stat rv"><b><span data-count="19">19</span></b><p>programov, od vitrin za sladoled do medicinskih zamrzovalnikov</p></div>
+    <div class="stat rv"><b><span data-count="429">429</span></b><p>izdelkov za gostinstvo, trgovino in medicino</p></div>
+    <div class="stat dark rv"><b>1</b><p>partner za svetovanje, opremo, montažo in servis</p></div>
+  </section>
+
+  <section class="rent wrap">
+    <a class="rent-card a rv" href="najem.html">
+      <h2 class="h2">Najem za dogodke.</h2>
+      <div class="im"><img src="assets/img/brina-50-0.jpg" alt="Odprti hladilnik pijač BRINA 50"></div>
+      <div><p>Hladilna oprema za snemanje, oglaševanje, prireditve, zabave in piknike.</p><span class="btn light" style="margin-top:24px">Najem opreme <svg class="arr" viewBox="0 0 20 20" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+    </a>
+    <a class="rent-card b rv" href="najem.html#obroki">
+      <div class="big36">36</div>
+      <div><h2 class="h3">obrokov za nakup opreme</h2><p style="margin-top:12px">Opremite lokal zdaj in plačujte postopoma.</p><span class="btn blue-b" style="margin-top:24px">Financiran nakup <svg class="arr" viewBox="0 0 20 20" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+    </a>
+  </section>
+
+  <section class="wrap">
+    <div class="svc-band rv">
+      <div>
+        <h2 class="h2">Ko se pokvari,<br><span class="blue">smo hitro tam.</span></h2>
+        <p class="lead" style="margin-top:24px;color:#3b4652;max-width:34ch">Strokovno usposobljena ekipa v najkrajšem času poskrbi za najboljšo rešitev.</p>
+        <div class="hero-actions"><a class="btn" href="servis.html">Naročilo servisa <svg class="arr" viewBox="0 0 20 20" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+      </div>
+      <ul>
+        <li><b>20 let izkušenj</b><span>Servis za lasten prodajni program, montaža hladilnic in hladilne opreme.</span></li>
+        <li><b>Kakovostne rešitve</b><span>Strokovno usposobljeno podjetje, ki težavo reši v najkrajšem času.</span></li>
+        <li><b>Stalna zaloga rezervnih delov</b><span>Čas popravila je zato vselej minimalen.</span></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/home.js"></script>
+</body>
+</html>
